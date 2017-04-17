@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="16dp"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp"
+              android:paddingTop="16dp"
+              tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/animview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:text="Animation Examples"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="colorAnimation"
+        android:text="Color Animation"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="shadowAnimation"
+        android:text="Shadow Animation"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="slideAnimation"
+        android:text="Slide Animation"/>
+
+    <Button
+        android:id="@+id/butto4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="rotateAnimation"
+        android:text="Rorate Animation"/>
+
+    <Button
+        android:id="@+id/butto5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fadeAnimation"
+        android:text="Fade Animation"/>
+
+    <Button
+        android:id="@+id/butto6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moveAnimation"
+        android:text="Move Animation"/>
+
+    <Button
+        android:id="@+id/butto7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="zoomAnimation"
+        android:text="Zoom Animation"/>
+
+    <Button
+        android:id="@+id/butto8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bounceAnimation"
+        android:text="Bounce Animation"/>
+</LinearLayout>
